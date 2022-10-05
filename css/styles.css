@@ -1,10 +1,3 @@
-/* ВОПРОС
-1. «С10» Для элемента <body> задано свойство color с доминантным на макете цветом текста. Остальной текст наследует или переопределяет это значение.
- Линки не меняют цвет, задаю колор нон - ничего не происходит. в браузере стоит восклицательній знак
- как правильно віполнять данное условие?*/
-
-
-
 :root {
 	--primary-text-color: #212121;
 	--title-text-color: #757575;
@@ -89,6 +82,7 @@ body {
 }
 
 .heroe .block .title {
+	text-transform: uppercase;
 	color: var(--primary-white);
 	font-weight: 900;
 	font-size: 44px;
@@ -178,6 +172,9 @@ body {
 	background-color: #F5F4FA;
 	color: var(--primary-text-color);
 	cursor: pointer;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
 }
 .nav-filter .buttom:hover,
 .nav-filter .buttom:focus {
