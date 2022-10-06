@@ -19,6 +19,7 @@ body {
 	list-style: none;
 	text-decoration: none;
 	border: none;
+	font-style: normal;
 }
 
 /* ? ||||| header |||||*/
@@ -46,8 +47,6 @@ body {
 }
 
 
-
-
 /* * ||||| nav  |||||| */
 
 .site-nav .link {
@@ -59,7 +58,6 @@ body {
 }
 .site-nav .current {
 	color: var(--accent-color);
-	
 }
 
 .site-nav .link:hover,
@@ -149,15 +147,18 @@ body {
 .page-footer {
 	background-color: #2F303A;
 }
+
+.page-footer .logo {
+	color: var(--primary-white);
+}
+
 .address-footer {
 	color: var(--primary-white);
 	font-size: 14px;
 	line-height: 1.7;
 	cursor: default;
 }
-.logo-footer {
-	color: var(--primary-white);
-}
+
 .contacts-footer .list {
 	color: rgba(255, 255, 255, 0.6);
 	font-size: 14px;
